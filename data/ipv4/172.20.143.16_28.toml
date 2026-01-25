@@ -18,8 +18,8 @@ accuracy_radius=50
 [172.20.143.18/32]
 country="Germany"
 country_code="DE"
-region="Bavaria"
-region_code="BY"
+region="Hesse"
+region_code="HE"
 city="Frankfurt"
 latitude=49.68333
 longitude=10.53333
@@ -28,8 +28,8 @@ accuracy_radius=50
 [172.20.143.19/32]
 country="Germany"
 country_code="DE"
-region="Bavaria"
-region_code="BY"
+region="Hesse"
+region_code="HE"
 city="Frankfurt"
 latitude=49.68333
 longitude=10.53333
@@ -85,8 +85,8 @@ accuracy_radius=50
 [172.20.143.26/32]
 country="Germany"
 country_code="DE"
-region="Bavaria"
-region_code="BY"
+region="Hesse"
+region_code="HE"
 city="Frankfurt"
 latitude=49.68333
 longitude=10.53333
