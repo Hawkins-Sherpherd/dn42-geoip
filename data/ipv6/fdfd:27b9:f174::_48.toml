@@ -1,0 +1,17 @@
+# Automatically generated from Geofeed, DO NOT EDIT
+
+[fdfd:27b9:f174::/48]
+country="Australia"
+country_code="AU"
+source="DN42"
+
+[fdfd:27b9:f174::/48]
+country="Australia"
+country_code="AU"
+region="Queensland"
+region_code="QLD"
+city="Brisbane"
+latitude=-27.46794
+longitude=153.02809
+accuracy_radius=50
+
