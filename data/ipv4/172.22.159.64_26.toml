@@ -25,10 +25,37 @@ latitude=39.09973
 longitude=-94.57857
 accuracy_radius=50
 
-[172.22.159.110/32]
-country="China"
-country_code="CN"
-latitude=39.9075
-longitude=116.39723
+[172.22.159.102/32]
+country="France"
+country_code="FR"
+region="Île-de-France"
+region_code="IDF"
+city="Paris"
+latitude=48.8534
+longitude=2.3486
+accuracy_radius=50
+
+[172.22.159.103/32]
+country="Poland"
+country_code="PL"
+latitude=52.22977
+longitude=21.01178
+accuracy_radius=50
+
+[172.22.159.112/32]
+country="Singapore"
+country_code="SG"
+latitude=1.28967
+longitude=103.85007
+accuracy_radius=50
+
+[172.22.159.113/32]
+country="Australia"
+country_code="AU"
+region="New South Wales"
+region_code="NSW"
+city="Sydney"
+latitude=-33.86785
+longitude=151.20732
 accuracy_radius=50
 
