@@ -63,6 +63,7 @@ curl http://127.0.0.1:8080/
 
 ```json
 {
+  "address": null,
   "city": {
     "name": {
       "de": "Shanghai",
@@ -72,7 +73,8 @@ curl http://127.0.0.1:8080/
       "ja": "上海",
       "pt-BR": "Xangai",
       "ru": "Шанхай",
-      "zh-CN": "上海"
+      "zh-hans": "上海",
+      "zh-hant": "上海"
     },
     "postal": ""
   },
@@ -87,7 +89,8 @@ curl http://127.0.0.1:8080/
       "ja": "アジア",
       "pt-BR": "Ásia",
       "ru": "Азия",
-      "zh-CN": "亚洲"
+      "zh-hans": "亚洲",
+      "zh-hant": "亞洲"
     }
   },
   "country": {
@@ -101,14 +104,16 @@ curl http://127.0.0.1:8080/
       "ja": "中国",
       "pt-BR": "China",
       "ru": "Китай",
-      "zh-CN": "中国"
+      "zh-hans": "中国",
+      "zh-hant": "中國"
     }
   },
   "ip": "172.20.54.57",
   "location": {
-    "accuracy_radius": 200,
+    "accuracy_radius": 50,
     "latitude": 31.22222,
-    "longitude": 121.45806
+    "longitude": 121.45806,
+    "time_zone": "Asia/Shanghai"
   },
   "registered_country": {
     "code": "CN",
@@ -121,7 +126,8 @@ curl http://127.0.0.1:8080/
       "ja": "中国",
       "pt-BR": "China",
       "ru": "Китай",
-      "zh-CN": "中国"
+      "zh-hans": "中国",
+      "zh-hant": "中國"
     }
   },
   "subdivisions": [
@@ -131,11 +137,16 @@ curl http://127.0.0.1:8080/
         "en": "Shanghai",
         "fr": "Municipalité de Shanghai",
         "pt-BR": "Xangai",
-        "zh-CN": "上海市"
+        "zh-hans": "上海市",
+        "zh-hant": "上海市"
       }
     }
-  ]
+  ],
+  "traits": {
+    "is_anycast": false
+  }
 }
+
 ```
 
 ### 查询指定 IP 信息

@@ -1,61 +1,80 @@
 # Automatically generated from Geofeed, DO NOT EDIT
 
-[172.22.159.64/26]
-country="United States"
-country_code="US"
-source="DN42"
+[Version]
+data_version = "1.1"
+create_time = 2026-03-28T17:47:58Z
+update_time = 2026-04-05T10:15:04Z
 
-[172.22.159.100/32]
-country="United States"
-country_code="US"
-region="Washington"
-region_code="WA"
-city="Seattle"
-latitude=47.60621
-longitude=-122.33207
-accuracy_radius=50
+[Master]
+CIDR = "172.22.159.64/26"
+country.name = "United States"
+country.code = "US"
+source = "DN42"
 
-[172.22.159.101/32]
-country="United States"
-country_code="US"
-region="Missouri"
-region_code="MO"
-city="Kansas City"
-latitude=39.09973
-longitude=-94.57857
-accuracy_radius=50
+[[GeoData]]
+CIDR = "172.22.159.100/32"
+anycast = false
+country.name = "United States"
+country.code = "US"
+region.name = "Washington"
+region.code = "WA"
+city = "Seattle"
+latitude = 47.60621
+longitude = -122.33207
+accuracy_radius = 50
 
-[172.22.159.102/32]
-country="France"
-country_code="FR"
-region="Île-de-France"
-region_code="IDF"
-city="Paris"
-latitude=48.8534
-longitude=2.3486
-accuracy_radius=50
+[[GeoData]]
+CIDR = "172.22.159.101/32"
+anycast = false
+country.name = "United States"
+country.code = "US"
+region.name = "Missouri"
+region.code = "MO"
+city = "Kansas City"
+latitude = 39.09973
+longitude = -94.57857
+accuracy_radius = 50
 
-[172.22.159.103/32]
-country="Poland"
-country_code="PL"
-latitude=52.22977
-longitude=21.01178
-accuracy_radius=50
+[[GeoData]]
+CIDR = "172.22.159.102/32"
+anycast = false
+country.name = "France"
+country.code = "FR"
+region.name = "Île-de-France"
+region.code = "IDF"
+city = "Paris"
+latitude = 48.8534
+longitude = 2.3486
+accuracy_radius = 50
 
-[172.22.159.112/32]
-country="Singapore"
-country_code="SG"
-latitude=1.28967
-longitude=103.85007
-accuracy_radius=50
+[[GeoData]]
+CIDR = "172.22.159.103/32"
+anycast = false
+country.name = "Poland"
+country.code = "PL"
+city = "Warsaw"
+latitude = 52.22977
+longitude = 21.01178
+accuracy_radius = 50
 
-[172.22.159.113/32]
-country="Australia"
-country_code="AU"
-region="New South Wales"
-region_code="NSW"
-city="Sydney"
-latitude=-33.86785
-longitude=151.20732
-accuracy_radius=50
+[[GeoData]]
+CIDR = "172.22.159.112/32"
+anycast = false
+country.name = "Singapore"
+country.code = "SG"
+city = "Singapore"
+latitude = 1.28967
+longitude = 103.85007
+accuracy_radius = 50
 
+[[GeoData]]
+CIDR = "172.22.159.113/32"
+anycast = false
+country.name = "Australia"
+country.code = "AU"
+region.name = "New South Wales"
+region.code = "NSW"
+city = "Sydney"
+latitude = -33.86785
+longitude = 151.20732
+accuracy_radius = 50

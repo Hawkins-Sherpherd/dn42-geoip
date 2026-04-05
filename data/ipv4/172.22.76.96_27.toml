@@ -1,27 +1,12 @@
 # Automatically generated from Geofeed, DO NOT EDIT
 
-[172.22.76.96/27]
-country="China"
-country_code="CN"
-source="DN42"
+[Version]
+data_version = "1.1"
+create_time = 2026-03-28T17:47:58Z
+update_time = 2026-04-05T10:15:04Z
 
-[172.22.76.117/32]
-country="United States"
-country_code="US"
-region="New York"
-region_code="NY"
-city="New York City"
-latitude=40.71427
-longitude=-74.00597
-accuracy_radius=50
-
-[172.22.76.123/32]
-country="Japan"
-country_code="JP"
-region="Fukuoka"
-region_code="40"
-city="Tokyo"
-latitude=35.6895
-longitude=139.69171
-accuracy_radius=50
-
+[Master]
+CIDR = "172.22.76.96/27"
+country.name = "China"
+country.code = "CN"
+source = "DN42"

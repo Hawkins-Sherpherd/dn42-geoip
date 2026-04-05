@@ -1,17 +1,24 @@
 # Automatically generated from Geofeed, DO NOT EDIT
 
-[fd42:4246:1e7f::/48]
-country="United States"
-country_code="US"
-source="DN42"
+[Version]
+data_version = "1.1"
+create_time = 2026-03-28T17:48:07Z
+update_time = 2026-04-05T10:15:04Z
 
-[fd42:4246:1e7f:5506::/64]
-country="United States"
-country_code="US"
-region="California"
-region_code="CA"
-city="Rocklin"
-latitude=38.79073
-longitude=-121.23578
-accuracy_radius=50
+[Master]
+CIDR = "fd42:4246:1e7f::/48"
+country.name = "United States"
+country.code = "US"
+source = "DN42"
 
+[[GeoData]]
+CIDR = "fd42:4246:1e7f:5506::/64"
+anycast = false
+country.name = "United States"
+country.code = "US"
+region.name = "California"
+region.code = "CA"
+city = "Rocklin"
+latitude = 38.79073
+longitude = -121.23578
+accuracy_radius = 50

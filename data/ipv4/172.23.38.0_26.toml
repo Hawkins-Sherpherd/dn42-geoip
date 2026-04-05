@@ -1,7 +1,12 @@
 # Automatically generated from Geofeed, DO NOT EDIT
 
-[172.23.38.0/26]
-country="Spain"
-country_code="ES"
-source="DN42"
+[Version]
+data_version = "1.1"
+create_time = 2026-03-28T17:47:58Z
+update_time = 2026-04-05T10:15:04Z
 
+[Master]
+CIDR = "172.23.38.0/26"
+country.name = "Spain"
+country.code = "ES"
+source = "DN42"
