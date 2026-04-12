@@ -3,7 +3,7 @@
 [Version]
 data_version = "1.1"
 create_time = 2026-03-28T17:47:58Z
-update_time = 2026-04-05T12:11:57Z
+update_time = 2026-04-12T03:39:26Z
 
 [Master]
 CIDR = "172.21.86.192/27"
@@ -12,22 +12,23 @@ country.code = "CN"
 source = "DN42"
 
 [[GeoData]]
-CIDR = "172.21.86.213/32"
+CIDR = "172.21.86.193/32"
 anycast = false
-country.name = "Germany"
-country.code = "DE"
-latitude = 52.52437
-longitude = 13.41053
+country.name = "United States"
+country.code = "US"
+city = "Los Angeles"
+latitude = 28.46582
+longitude = -99.00003
 accuracy_radius = 50
 
 [[GeoData]]
-CIDR = "172.21.86.210/32"
+CIDR = "172.21.86.194/32"
 anycast = false
-country.name = "Hong Kong"
-country.code = "HK"
-city = "Hong Kong"
-latitude = 22.27832
-longitude = 114.17469
+country.name = "United States"
+country.code = "US"
+city = "Las Vegas"
+latitude = 28.54804
+longitude = -99.48976
 accuracy_radius = 50
 
 [[GeoData]]
@@ -41,6 +42,46 @@ longitude = 137.26667
 accuracy_radius = 50
 
 [[GeoData]]
+CIDR = "172.21.86.198/32"
+anycast = false
+country.name = "Germany"
+country.code = "DE"
+city = "Mainz"
+latitude = 50.00133
+longitude = 8.25865
+accuracy_radius = 50
+
+[[GeoData]]
+CIDR = "172.21.86.199/32"
+anycast = false
+country.name = "Hong Kong"
+country.code = "HK"
+city = "Hong Kong"
+latitude = 22.27832
+longitude = 114.17469
+accuracy_radius = 50
+
+[[GeoData]]
+CIDR = "172.21.86.202/32"
+anycast = false
+country.name = "United States"
+country.code = "US"
+city = "San Jose"
+latitude = 30.24274
+longitude = -81.61593
+accuracy_radius = 50
+
+[[GeoData]]
+CIDR = "172.21.86.203/32"
+anycast = false
+country.name = "France"
+country.code = "FR"
+city = "Paris"
+latitude = 48.8534
+longitude = 2.3486
+accuracy_radius = 50
+
+[[GeoData]]
 CIDR = "172.21.86.206/32"
 anycast = false
 country.name = "Singapore"
@@ -48,6 +89,16 @@ country.code = "SG"
 city = "Singapore"
 latitude = 1.28967
 longitude = 103.85007
+accuracy_radius = 50
+
+[[GeoData]]
+CIDR = "172.21.86.210/32"
+anycast = false
+country.name = "Hong Kong"
+country.code = "HK"
+city = "Hong Kong"
+latitude = 22.27832
+longitude = 114.17469
 accuracy_radius = 50
 
 [[GeoData]]
@@ -61,11 +112,10 @@ longitude = -86.75333
 accuracy_radius = 50
 
 [[GeoData]]
-CIDR = "172.21.86.193/32"
+CIDR = "172.21.86.213/32"
 anycast = false
-country.name = "United States"
-country.code = "US"
-city = "Los Angeles"
-latitude = 28.46582
-longitude = -99.00003
+country.name = "Germany"
+country.code = "DE"
+latitude = 52.52437
+longitude = 13.41053
 accuracy_radius = 50

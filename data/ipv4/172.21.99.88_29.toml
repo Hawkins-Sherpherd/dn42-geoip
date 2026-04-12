@@ -3,40 +3,10 @@
 [Version]
 data_version = "1.1"
 create_time = 2026-03-28T17:47:58Z
-update_time = 2026-04-05T12:11:57Z
+update_time = 2026-04-12T03:39:26Z
 
 [Master]
 CIDR = "172.21.99.88/29"
 country.name = "China"
 country.code = "CN"
 source = "DN42"
-
-[[GeoData]]
-CIDR = "172.21.99.89/32"
-anycast = false
-country.name = "China"
-country.code = "CN"
-latitude = 39.9075
-longitude = 116.39723
-accuracy_radius = 50
-
-[[GeoData]]
-CIDR = "172.21.99.90/32"
-anycast = false
-country.name = "Hong Kong"
-country.code = "HK"
-latitude = 22.27832
-longitude = 114.17469
-accuracy_radius = 50
-
-[[GeoData]]
-CIDR = "172.21.99.91/32"
-anycast = false
-country.name = "China"
-country.code = "CN"
-region.name = "Beijing"
-region.code = "BJ"
-city = "Beijing"
-latitude = 39.9075
-longitude = 116.39723
-accuracy_radius = 50
