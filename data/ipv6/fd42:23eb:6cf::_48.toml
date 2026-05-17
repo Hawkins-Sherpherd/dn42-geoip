@@ -3,7 +3,7 @@
 [Version]
 data_version = "1.1"
 create_time = 2026-04-12T03:39:02Z
-update_time = 2026-05-10T04:08:01Z
+update_time = 2026-05-17T04:17:39Z
 
 [Master]
 CIDR = "fd42:23eb:6cf::/48"
@@ -22,7 +22,7 @@ longitude = -74.39904
 accuracy_radius = 50
 
 [[GeoData]]
-CIDR = "fd42:23eb:6cf::163/128"
+CIDR = "fd42:23eb:6cf::162/127"
 anycast = false
 country.name = "China"
 country.code = "CN"

@@ -3,7 +3,7 @@
 [Version]
 data_version = "1.1"
 create_time = 2026-03-28T17:47:58Z
-update_time = 2026-05-10T04:08:01Z
+update_time = 2026-05-17T04:17:39Z
 
 [Master]
 CIDR = "172.21.86.192/27"
@@ -39,16 +39,6 @@ country.code = "JP"
 city = "Osaka"
 latitude = 35.95
 longitude = 137.26667
-accuracy_radius = 50
-
-[[GeoData]]
-CIDR = "172.21.86.198/32"
-anycast = false
-country.name = "Germany"
-country.code = "DE"
-city = "Mainz"
-latitude = 50.00133
-longitude = 8.25865
 accuracy_radius = 50
 
 [[GeoData]]
